@@ -11,7 +11,7 @@
 
 ---  
 ## Refactoring your PyTorch code + benefits + full walk-through
-[![Watch the video](docs/source/_images/general/tutorial_cover.jpg)](https://www.youtube.com/watch?v=QHww1JH7IDU)
+[![Watch the video](images/general/tutorial_cover.jpg)](https://www.youtube.com/watch?v=QHww1JH7IDU)
 
 ## What is it?
 [READ THIS QUICK START PAGE](https://pytorch-lightning.readthedocs.io/en/stable/new-project.html)
@@ -24,3 +24,20 @@ In Lightning, you organize your code into 3 distinct categories:
 1. Research code (goes in the LightningModule).
 2. Engineering code (you delete, and is handled by the Trainer).
 3. Non-essential research code (logging, etc... this goes in Callbacks).
+
+Here's an example of how to refactor your research code into a [LightningModule](https://pytorch-lightning.readthedocs.io/en/latest/lightning-module.html).
+
+![PT to PL](images/lightning_module/pt_to_pl.png)
+
+The rest of the code is automated by the [Trainer](https://pytorch-lightning.readthedocs.io/en/latest/trainer.html)!
+![PT to PL](images/lightning_module/pt_trainer.png)
+
+## What does lightning control for me?
+
+Everything in Blue!
+This is how lightning separates the science (red) from engineering (blue).
+
+![Overview](images/general/pl_overview.gif)
+
+## Why do I want to use lightning?
+Although your research/production project might start simple, once you add things like GPU AND TPU training, 16-bit precision, etc, you end up spending more time engineering than researching. Lightning automates AND rigorously tests those parts for you.
