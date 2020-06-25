@@ -10,6 +10,15 @@
 </div>
 
 ---  
+## What am I doing ?
+- Add learning rate scheduler and logger
+- Add custom callback class
+- Add early stopping callback
+- Add Model Checkpoint
+- Add TensorBoard for visualisation metric
+- Show how to inference the model
+
+
 ## Refactoring your PyTorch code + benefits + full walk-through
 [![Watch the video](images/general/tutorial_cover.jpg)](https://www.youtube.com/watch?v=QHww1JH7IDU)
 
