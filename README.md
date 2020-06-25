@@ -16,7 +16,7 @@
 - Add early stopping callback
 - Add Model Checkpoint
 - Add TensorBoard for visualisation metric
-- Show how to inference the model
+- Show how to training, validation, testing, and inference the model
 
 
 ## Refactoring your PyTorch code + benefits + full walk-through
