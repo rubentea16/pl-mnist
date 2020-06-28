@@ -10,7 +10,7 @@
 </div>
 
 ---  
-## What am I doing ?
+## What do I do ?
 - Add learning rate scheduler and logger
 - Add custom callback class
 - Add early stopping callback
